@@ -107,8 +107,8 @@ export default function VideoZoom() {
 
   return (
     /* tall wrapper = scroll distance. Don't put overflow-hidden on any ancestor, it breaks sticky */
-    <section ref={sectionRef} className="relative h-[260vh] bg-black">
-      <div className="sticky top-0 flex h-screen w-full items-center justify-center overflow-hidden bg-black">
+    <section ref={sectionRef} className="relative h-[260vh] ">
+      <div className="sticky top-0 flex h-screen w-full items-center justify-center overflow-hidden">
         {/* ---------- LEFT peek card ---------- */}
         <motion.div
           aria-hidden
