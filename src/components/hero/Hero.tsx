@@ -252,7 +252,7 @@ export default function Hero() {
       />
 
       {/* Hero content */}
-      <div className="relative z-10 flex h-full flex-col justify-end px-6 pb-24 md:px-12 md:pb-20">
+      {/* <div className="relative z-10 flex h-full flex-col justify-end px-6 pb-24 md:px-12 md:pb-20">
         <p className="hero-sub label mb-5 text-white/80">
           {artist.descriptor}
         </p>
@@ -295,7 +295,7 @@ export default function Hero() {
             </a>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* Scroll indicator */}
       <div

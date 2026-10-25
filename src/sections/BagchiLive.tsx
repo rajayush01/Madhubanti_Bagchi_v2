@@ -124,7 +124,7 @@ export default function BagchiLive() {
               active ? "opacity-100" : "opacity-75",
             ].join(" ")}
           >
-            Job Kurian
+           Madhubanti Bagchi
           </span>
 
           <span
