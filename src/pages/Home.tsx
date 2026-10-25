@@ -12,6 +12,7 @@ import ContactSection from '../sections/ContactSection'
 import ImageMarquee from '../components/gallery/ImageMarquee'
 import { scrollToId } from '../utils/scroll'
 import BagchiLive from '../sections/BagchiLive'
+import VideoZoom from '../sections/VideoZoom'
 // import UpcomingTours from '../sections/UpcomingTours'
 
 export default function Home() {
@@ -26,6 +27,7 @@ export default function Home() {
       <Hero />
       <AboutSection />
       <MusicSection />
+      <VideoZoom/>
       {/* <FeaturedVideoSection /> */}
       {/* <JourneySection /> */}
       <PerformancesSection />
