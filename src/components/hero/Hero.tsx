@@ -96,7 +96,7 @@ import { ArrowDown } from 'lucide-react'
 import { artist } from '../../data/artist'
 import { prefersReducedMotion } from '../../utils/scroll'
 import Media from '../ui/Media'
-import concertVideo from '../../assets/vid.mp4'
+import concertVideo from '../../../public/media/vid.mp4'
 
 gsap.registerPlugin(ScrollTrigger)
 
